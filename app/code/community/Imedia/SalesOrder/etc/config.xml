@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<Imedia_SalesOrder>
-			<version>1.0.0</version>
+			<version>1.0.2</version>
 		</Imedia_SalesOrder>
 	</modules>       
 	<global>

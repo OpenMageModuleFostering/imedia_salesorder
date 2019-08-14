@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <package>
     <name>Imedia_SalesOrder</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>Enhance sales order grid options</summary>
-    <description>With this module you can show following options in sales order Grid&#xD;
-1. Show Product Name&#xD;
-2. Show Product SKU&#xD;
-3. Show Customer Email</description>
-    <notes>First Stable Release</notes>
+    <description>Enhance sales order grid options&#xD;
+1. Display Product Name&#xD;
+2. Display Product SKU&#xD;
+3. Display Customer Email</description>
+    <notes>2nd Stable Release</notes>
     <authors><author><name>iMediaDesigns</name><user>imediadesigns</user><email>info@imediadesigns.org</email></author></authors>
-    <date>2014-04-26</date>
-    <time>11:54:35</time>
-    <contents><target name="magecommunity"><dir name="Imedia"><dir name="SalesOrder"><dir name="Block"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="f5c7009c05fd6ad34e2c12822d212429"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="acfbe4ccedec3b0224637d5bd799428a"/></dir><dir name="etc"><file name="adminhtml.xml" hash="5e31103eb3e2dec25f31de455d3fb643"/><file name="config.xml" hash="016ec4612e05845ccf51fd7f246eaf14"/><file name="system.xml" hash="fe11cd11743df6f1c4bca253d3411beb"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Imedia_SalesOrder.xml" hash="85a5c0d609dd0a830a50113acadb6c5f"/></dir></target></contents>
+    <date>2014-05-30</date>
+    <time>13:46:32</time>
+    <contents><target name="magecommunity"><dir name="Imedia"><dir name="SalesOrder"><dir name="Block"><dir name="Sales"><dir name="Order"><file name="Grid.php" hash="27d53a0083b55a807b08730c200f6d38"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="acfbe4ccedec3b0224637d5bd799428a"/></dir><dir name="etc"><file name="adminhtml.xml" hash="fcf5ee2ecbe69b744c3cde93970f22f5"/><file name="config.xml" hash="5afd9fb832c2d9f137608586ec119dda"/><file name="system.xml" hash="2fac1aaaf74d2129afcd6c04b382d07f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Imedia_SalesOrder.xml" hash="85a5c0d609dd0a830a50113acadb6c5f"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.0.0</min><max>7.0.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
 </package>
