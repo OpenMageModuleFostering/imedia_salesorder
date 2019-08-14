@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Imedia_SalesOrder>
+			<version>1.0.0</version>
+		</Imedia_SalesOrder>
+	</modules>       
+	<global>
+		<blocks>
+			<adminhtml>
+				<rewrite>
+					<sales_order_grid>Imedia_SalesOrder_Block_Sales_Order_Grid</sales_order_grid>
+				</rewrite>
+			</adminhtml>
+		</blocks>
+		<helpers>
+            <salesorder>
+                <class>Imedia_SalesOrder_Helper</class>
+            </salesorder>
+        </helpers>	
+	</global> 	
+</config>

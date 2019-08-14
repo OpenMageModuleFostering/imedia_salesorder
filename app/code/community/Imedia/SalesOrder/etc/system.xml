@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<config>
+	<sections>
+		<salesorder translate="label">
+			<label>Imedia Sales Order Grid</label>
+			<tab>general</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>1000</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+      
+			<groups>
+				<grid_options translate="label">
+				   <label>Grid Options</label>
+				   <frontend_type>text</frontend_type>
+				   <sort_order>1</sort_order>
+				   <show_in_default>1</show_in_default>
+				   <show_in_website>1</show_in_website>
+				   <show_in_store>1</show_in_store>  
+				   <fields>
+						<show_product_name translate="label">
+							<label>Show Product Name</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<comment>set yes to show product name in sales order grid</comment>
+							<sort_order>1</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</show_product_name>		
+						<show_product_sku translate="label">
+							<label>Show Product SKU</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<comment>set yes to show product sku in sales order grid</comment>
+							<sort_order>2</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</show_product_sku>	
+						<show_customer_email translate="label">
+							<label>Show Customer Email</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<comment>set yes to show customer email in sales order grid</comment>
+							<sort_order>3</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</show_customer_email>			
+				   </fields>
+				</grid_options>			
+			</groups>
+           
+      </salesorder>
+   </sections>
+</config>
