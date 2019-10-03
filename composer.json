@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Imedia_SalesOrder",
+    "name": "OpenMageModuleFostering\/Imedia_SalesOrder",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Enhance sales order grid options",
     "authors": [
-    {
-        "name": "iMediaDesigns",
-        "email": "info@imediadesigns.org"
-    }
-],
+        {
+            "name": "iMediaDesigns",
+            "email": "info@imediadesigns.org"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
